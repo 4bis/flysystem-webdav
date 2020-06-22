@@ -1,5 +1,5 @@
 {
-    "name": "league/flysystem-webdav",
+    "name": "4bis/flysystem-webdav",
     "description": "Flysystem adapter for WebDAV",
     "license": "MIT",
     "authors": [
