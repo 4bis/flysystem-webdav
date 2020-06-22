@@ -156,9 +156,12 @@ class WebDAVAdapter extends AbstractAdapter
 
         $result = compact('path', 'contents');
 
-        if ($config->get('visibility')) {
+	// XXX: maxkaps - issue in LIIP Imagine Bundle that forces the visibility
+        /*
+	if ($config->get('visibility')) {
             throw new LogicException(__CLASS__.' does not support visibility settings.');
         }
+	*/
 
         return $result;
     }
