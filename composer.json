@@ -29,5 +29,15 @@
         "branch-alias": {
             "dev-master": "1.2-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:4bis/dav.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:4bis/http.git"
+        }
+    ]
 }
